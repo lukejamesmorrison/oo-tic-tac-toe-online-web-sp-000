@@ -87,7 +87,7 @@ class TicTacToe
   # Is the game a draw? (no winners)
   ##
   def draw?(board)
-    full?(board) && !won?(board)
+    full? && !won?
   end
 
   ##
