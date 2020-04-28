@@ -126,7 +126,7 @@ class TicTacToe
     winning_combo = nil
 
     # Detect if board is empty
-    if empty?(@board)
+    if empty?
       return false
     end
 
