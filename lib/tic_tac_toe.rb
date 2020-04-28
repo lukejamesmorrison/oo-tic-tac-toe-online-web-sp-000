@@ -54,8 +54,8 @@ class TicTacToe
   ##
   # Get the current player.
   ##
-  def current_player(board)
-    t_count = turn_count(board)
+  def current_player()
+    t_count = turn_count(@board)
     t_count == 0 || t_count % 2 == 0 ? "X" : "O"
   end
 
