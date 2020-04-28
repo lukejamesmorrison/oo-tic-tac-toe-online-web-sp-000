@@ -42,7 +42,7 @@ class TicTacToe
   end
 
   ##
-  # Conduct a single move on the board at 'index' with 'character'.
+  # Conduct a single move on the board at '@index' with 'character'.
   ##
   def move(character)
     if @board[@index] === " "
