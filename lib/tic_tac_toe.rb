@@ -69,11 +69,11 @@ class TicTacToe
   ##
   # Is move at 'index' valid?
   ##
-  def valid_move?
-    if @index == nil || @index > @board.length - 1 || @index < 0
+  def valid_move?(index)
+    if index == nil || index > @board.length - 1 || index < 0
       return false
     end
-    !position_taken?
+    !position_taken?(index)
   end
 
   ##
