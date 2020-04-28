@@ -79,8 +79,8 @@ class TicTacToe
   ##
   # Is position at 'index' taken?
   ##
-  def position_taken?(board, index)
-    !(board[index].nil? || board[index] == " ")
+  def position_taken?
+    !(@board[@index].nil? || @board[@index] == " ")
   end
 
   ##
