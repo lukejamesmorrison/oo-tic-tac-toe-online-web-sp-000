@@ -162,7 +162,9 @@ class TicTacToe
   # Play game.
   ##
   def play
-    until over? { turn }
+    until over? do
+      turn
+    end
 
     puts won? ? "Congratulations #{winner}!" : "Cat's Game!"
   end
