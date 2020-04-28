@@ -12,6 +12,9 @@ class TicTacToe
     [6,4,2]  # Bottom-Left cross
   ]
 
+  def initialize(board)
+
+  end
   ##
   # Display the board.
   ##
