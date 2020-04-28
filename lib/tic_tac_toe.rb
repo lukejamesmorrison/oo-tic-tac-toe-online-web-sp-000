@@ -133,9 +133,7 @@ class TicTacToe
       cell_1 = combo[0]; cell_2 = combo[1]; cell_3 = combo[2]
 
       # If first position is empty, move to next combo immediately
-      if !position_taken?(cell_1)
-        next
-      end
+      next if !position_taken?(cell_1)
 
       # If the cells match
       cells_match = @board[cell_1] == @board[cell_2] && @board[cell_1] == @board[cell_3]
