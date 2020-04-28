@@ -161,7 +161,7 @@ class TicTacToe
     input = gets.strip
     input_to_index(input)
     @player = current_player
-    valid_move? ? move(@player) : turn(board)
+    valid_move? ? move : turn(board)
   end
 
   ##
