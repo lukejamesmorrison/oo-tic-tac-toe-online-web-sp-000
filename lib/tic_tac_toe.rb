@@ -12,6 +12,9 @@ class TicTacToe
     [6,4,2]  # Bottom-Left cross
   ]
 
+  ##
+  # Initalize the object.
+  ##
   def initialize(board = nil)
     @board = board || Array.new(9, ' ')
   end
