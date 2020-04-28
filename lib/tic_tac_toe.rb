@@ -140,9 +140,9 @@ class TicTacToe
       end
 
       # If the cells match
-      cells_match = board[cell_1] == board[cell_2] && board[cell_1] == board[cell_3]
+      cells_match = @board[cell_1] == @board[cell_2] && @board[cell_1] == @board[cell_3]
       # If first cell is X or O
-      first_is_valid = board[cell_1] == "X" || board[cell_1] == "O"
+      first_is_valid = @board[cell_1] == "X" || @board[cell_1] == "O"
 
       if first_is_valid && cells_match
         winning_combo = combo
@@ -156,7 +156,7 @@ class TicTacToe
   ##
   # Conduct a single turn.
   ##
-  def turn(board)
+  def turn
     puts "Please enter 1-9:"
     input = gets.strip
     index = input_to_index(input)
