@@ -168,8 +168,8 @@ class TicTacToe
   # Play game.
   ##
   def play(board)
-    until over?(board) do
-      turn(board)
+    until over? do
+      turn
     end
 
     puts won?(board) ? "Congratulations #{winner(board)}!" : "Cat's Game!"
