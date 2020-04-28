@@ -13,7 +13,7 @@ class TicTacToe
   ]
 
   def initialize(board = nil)
-    
+
   end
   ##
   # Display the board.
