@@ -126,7 +126,7 @@ class TicTacToe
     winning_combo = nil
 
     # Detect if board is empty
-    if empty? return false
+    return false if empty?
 
     # Detect if game has been won
     WIN_COMBINATIONS.each do |combo|
