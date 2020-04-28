@@ -47,7 +47,7 @@ class TicTacToe
   def move(character)
     if @board[@index] === " "
       @board[@index] = character
-      display_board()
+      display_board
     end
   end
 
