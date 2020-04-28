@@ -38,7 +38,7 @@ class TicTacToe
   ##
   def input_to_index(input)
     index = input.to_i - 1
-    index.between?(0,8) ? index : -1
+    @index = index.between?(0,8) ? index : -1
   end
 
   ##
