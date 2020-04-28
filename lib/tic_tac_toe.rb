@@ -115,7 +115,7 @@ class TicTacToe
   # Get the winner of the game if the game has been won.
   ##
   def winner
-    won? ? board[won?[0]] : nil
+    won? ? @board[won?[0]] : nil
   end
 
   ##
