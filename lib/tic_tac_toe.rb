@@ -107,8 +107,8 @@ class TicTacToe
   ##
   # Is the game over?
   ##
-  def over?(board)
-    won?(board) || draw?(board)
+  def over?
+    won? || draw?
   end
 
   ##
