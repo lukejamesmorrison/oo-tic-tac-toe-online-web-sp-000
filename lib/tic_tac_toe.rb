@@ -62,8 +62,8 @@ class TicTacToe
   ##
   # Get the number of turns conducted so far.
   ##
-  def turn_count(board)
-    board.reject{|cell| cell == ' '}.length
+  def turn_count()
+    @board.reject{|cell| cell == ' '}.length
   end
 
   ##
