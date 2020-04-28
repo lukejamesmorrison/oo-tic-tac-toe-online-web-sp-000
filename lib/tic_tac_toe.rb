@@ -86,22 +86,22 @@ class TicTacToe
   ##
   # Is the game a draw? (no winners)
   ##
-  def draw?(board)
+  def draw?
     full? && !won?
   end
 
   ##
   # Is the board currently empty?
   ##
-  def empty?(board)
-    board.select{|cell| cell == ' '}.length == 9
+  def empty?
+    @board.select{|cell| cell == ' '}.length == 9
   end
 
   ##
   # Is the board currently full?
   ##
-  def full?(board)
-    board.select{|cell| cell == 'X' || cell == "O"}.length == 9
+  def full?
+    @board.select{|cell| cell == 'X' || cell == "O"}.length == 9
   end
 
   ##
