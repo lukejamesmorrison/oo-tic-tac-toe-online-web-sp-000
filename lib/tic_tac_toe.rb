@@ -12,7 +12,7 @@ class TicTacToe
     [6,4,2]  # Bottom-Left cross
   ]
 
-  def initialize(board)
+  def initialize(board = nil)
     
   end
   ##
