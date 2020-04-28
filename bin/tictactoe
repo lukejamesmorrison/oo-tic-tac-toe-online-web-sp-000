@@ -7,4 +7,4 @@ puts "Welcome to Tic Tac Toe!"
 
 tic_tac_toe = TicTacToe.new
 
-play(board)
+tic_tac_toe.play
