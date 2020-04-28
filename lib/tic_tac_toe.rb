@@ -44,7 +44,7 @@ class TicTacToe
   ##
   # Conduct a single move on the board at 'index' with 'character'.
   ##
-  def move(board, index, character)
+  def move(character)
     if @board[@index] === " "
       @board[@index] = character
       display_board()
