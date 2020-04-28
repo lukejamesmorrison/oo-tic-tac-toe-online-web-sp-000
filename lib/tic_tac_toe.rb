@@ -121,7 +121,7 @@ class TicTacToe
   ##
   # Has the game been won?
   ##
-  def won?(board)
+  def won?
     # The winning combo
     winning_combo = nil
 
